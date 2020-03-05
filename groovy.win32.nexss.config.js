@@ -2,12 +2,15 @@ let languageConfig = Object.assign({}, require("../config.win32"));
 languageConfig.title = "Groovy";
 languageConfig.description =
   "Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities";
-languageConfig.url = "https://groovy-lang.org/";
+languageConfig.url = "https://groovy-lang.org";
+languageConfig.founders = ["James Strachan"];
+languageConfig.developers = [""];
+languageConfig.years = ["2003"];
 languageConfig.extensions = [".groovy"];
-languageConfig.executeCommandLine = "fpc";
+languageConfig.executeCommandLine = "";
 languageConfig.printCommandLine = ""; //no console.log() needed to display result eg node -p "4+6"
 languageConfig.checkSyntax = "";
-languageConfig.interactiveShell = "fpc";
+languageConfig.interactiveShell = "";
 languageConfig.builders = {};
 languageConfig.compilers = {
   fpc: {
